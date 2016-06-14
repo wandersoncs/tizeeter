@@ -1,0 +1,206 @@
+body {
+    background-color: #f5f8fa;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+a:link {
+    color: #1b95e0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+p { 
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    color: #007AA6;
+}
+
+#menu {
+    padding-left: 10px;
+}
+
+#menu li {
+     display: inline;    
+     color: #66757f;
+     margin-right: 10px;
+}
+
+#menu li a {
+    color: inherit;
+}
+
+#menu li a:hover {
+    color: #1b95e0;
+    border-bottom:5px solid #1b95e0;
+    text-decoration:none;
+    transition: all .15s ease-in-out;
+}
+
+ol.trends {
+    list-style: none;
+    background-color: white;
+}
+
+.userdata {
+    background-color:#0084b4;
+    padding: 4px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.userstats {
+    padding: 4px;
+    clear: both;
+}
+
+.userphoto {
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+a.complete_name {
+    color: #292f33;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+a.username {
+    color: #66757f;
+    text-decoration:none;
+    font-size: .8em;
+}
+
+p.tizeet {
+    padding: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e1e8ed;
+
+}
+
+p.tizeet.empty{
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#tizeet_form {
+    text-align: right;
+    padding: 8px;
+}
+
+#tizeet {
+    width: 98%;
+    resize: none;
+}
+
+#tizeet_size {
+    margin-right: 5px;
+    color:#8899a6;
+}
+
+#tizeet_size.invalidTizeet {
+    color: red;
+}
+
+#tizeet_form input[type=submit] {
+    width: inherit;
+    display:inline;
+    padding:5px 15px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border: 0px;
+}
+
+select {
+    border-radius: 5px;
+    border: none;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    background-color: white;
+
+}
+
+input[type=text], input[type=password], input[type=submit] {
+    border-radius: 5px;
+    border: none;
+    display: block;
+    width:100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 5px 0px;
+
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+    border-radius: 5px;
+    border: 1px solid #0084b4;
+    box-shadow: 0 0 8px #0084B4;
+}
+
+input[type=submit]{
+    background:#0084b4; 
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #007AA6;
+}
+
+input[type=submit]:disabled {
+    opacity: .2;
+}
+
+.error {
+	color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+	padding: 10px;
+    text-align: left;
+    margin: 5px;
+}
+
+thead {
+	background-color: #007AA6;
+	color: white;
+	
+}
+
+tbody {
+	background-color: white;
+}
+
+tbody > tr:hover {
+	background-color: #1b95e0;
+}
+
+tr.par {
+	background-color: #f5f8fa;
+}
+
+tr.impar {
+	background-color: white;
+}
+
+.tizeet_date {
+	float:right; 
+	font-size:small; 
+	color:gray
+}

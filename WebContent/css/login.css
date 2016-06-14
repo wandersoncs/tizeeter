@@ -1,0 +1,40 @@
+#principal {
+    position:absolute;
+    top: 20%;
+    left:30%;
+    box-sizing: border-box;
+    width: 40%;
+    margin: auto auto;
+    background-color: #e5f2f7;
+    border-radius: 6px;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    color: #0084b4;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+hr {
+    margin: inherit auto;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+p {
+    background-color:transparent;
+}
+
+form {
+    text-align:left;
+}

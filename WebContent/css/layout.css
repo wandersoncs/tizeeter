@@ -1,0 +1,57 @@
+#cabecalho {
+    background-color: white;
+}
+
+#container {
+    max-width: 1190px;
+    width: auto;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+.module {
+    border: 1px solid #e1e8ed;
+    border-radius:6px;
+    background-color: white;
+    padding: 4px;
+}
+
+#conteudo {
+    margin: 10px auto;
+    max-width: 1190px;
+}
+
+#nav {
+    box-sizing: border-box;
+    width: 24%;
+    min-height: 200px;
+    float: left;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+#principal {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin: 0 10px;
+    padding: 0px;
+    background-color: #e5f2f7;
+    border-radius: 6px;
+}
+
+#outros {
+    box-sizing: border-box;
+    width: 22%;
+    float: left;
+    margin-right: 10px;
+}
+
+#rodape {
+    box-sizing: border-box;
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
