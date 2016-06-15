@@ -17,8 +17,7 @@ import javax.servlet.http.HttpSession;
 public class AutenticacaoFilter implements Filter {
 
 	@Override
-	public void destroy() {
-	}
+	public void destroy() {	}
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
@@ -43,7 +42,6 @@ public class AutenticacaoFilter implements Filter {
 	}
 
 	@Override
-	public void init(FilterConfig arg0) throws ServletException {
-	}
+	public void init(FilterConfig arg0) throws ServletException { }
 
 }
