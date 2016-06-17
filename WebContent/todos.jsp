@@ -25,8 +25,8 @@
             </tr>
           </thead>
           <tbody>
-            <c:forEach var="user" items="usuarios" varStatus="i">
-              <tr class="${ (i%2==0) ? 'par' : 'impar' }">
+            <c:forEach var="user" items="${ usuarios }" varStatus="i">
+              <tr class="${ (i.index %2==0) ? 'par' : 'impar' }">
                 <td>${ user.nome}</td>
                 <td>${ user.email }</td>
                 <td><fmt:formatDate value="${ user.dataDeNascimento }" /></td>
